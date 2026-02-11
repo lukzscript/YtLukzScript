@@ -1,3 +1,7 @@
+if game.Players.LocalPlayer.Name ~= "lukzscript" then 
+    game.Players.LocalPlayer:Kick("Script Privado: Solo Lukz puede usarlo.")
+    return 
+end
 local p = game:GetService("Players").LocalPlayer
 local RS = game:GetService("ReplicatedStorage")
 local MY_BASE = CFrame.new(396.012, 1.039, 5.902) 
